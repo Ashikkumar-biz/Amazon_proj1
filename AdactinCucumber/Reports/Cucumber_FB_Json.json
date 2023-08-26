@@ -1,0 +1,70 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 3,
+        "name": "Login into Facebook account",
+        "description": "",
+        "id": "facebook-login;login-into-facebook-account",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 1105701000,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "User launch the Facebook application",
+            "match": {
+              "location": "StepDefFaceBook.user_launch_the_Facebook_application()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 95855000,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "user enter the username",
+            "match": {
+              "location": "StepDefFaceBook.user_enter_the_username()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 87691500,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "user enter the password",
+            "match": {
+              "location": "StepDefFaceBook.user_enter_the_password()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 97498800,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "user click on Login Button",
+            "match": {
+              "location": "StepDefFaceBook.user_click_on_Login_Button()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Facebook Login",
+    "description": "",
+    "id": "facebook-login",
+    "keyword": "Feature",
+    "uri": "Facebook.feature"
+  }
+]
